@@ -1,0 +1,72 @@
+h1 {
+    color: red;
+}
+h2, h3 {
+    color:orange;
+}
+h4, h5, h6 {
+    color: green;
+}
+p {
+    color: rgb(4, 0, 255);
+    font-family: Verdana;
+}
+
+.destacado { 
+    color: red;
+}
+
+#parrafo-2 {
+    color:green;
+}
+
+p span {
+    color:orange;
+}
+
+/* Estilos base de la tabla */
+.tabla-colores {
+    border: 1px solid black;
+}
+
+.tabla-colores td {
+    background-color: rgb(255, 111, 0);
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Color para la intersección F2-C3 */
+.tabla-colores #interseccion-f2-c3 {
+    background-color: rgb(0, 233, 233);
+}
+
+/* Color para toda la segunda fila */
+.tabla-colores .fila-2 td {
+    background-color: rgb(255, 0, 255);
+}
+
+/* Color para la tercera columna */
+.tabla-colores .columna-3 {
+    background-color: rgb(0, 255, 0);
+}
+
+/* Color para la primera celda de cada fila */
+.tabla-colores .celda-primera-ultima {
+    background-color: rgb(8, 0, 255);
+}
+
+/* Color para la intersección F3-C2 */
+.tabla-colores .interseccion-f3-c2 {
+    background-color: rgb(128, 0, 128);
+}
+
+/* Ajustando el tamaño y fuente de todas las celdas */
+.tabla-colores td {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
