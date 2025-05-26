@@ -69,7 +69,7 @@ body {
     font-size: 2.5rem;
 }
 
-/* Menú de navegación */
+/* Menu de navegación */
 .menu {
     background-color: var(--color-primario);
     padding: var(--espaciado-sm);
